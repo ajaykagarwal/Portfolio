@@ -41,7 +41,7 @@
 .toggle{color:#20c997 !important;}
 .inactive{color:#fff;}
 .img-back{
-	background:url(../images/main.png) no-repeat;
+	background:url(../images/main.jpg) no-repeat;
 	background-size: cover;
 	height:100vh;
 	background-attachment:fixed;
