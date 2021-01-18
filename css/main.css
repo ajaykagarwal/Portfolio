@@ -332,13 +332,17 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
 .project-header h3{
 	position:absolute;
 	left:42%;
-    top:15%;
+    top:13%;
 	align-self:center;
 	text-align:center;
 	z-index:1;
 	font-weight:600;
 	font-size:3rem;
 	color:#fff;
+}
+.btn-check:focus + .btn-primary, .btn-primary:focus{
+	background:#ccc;
+	border:1px solid #20c997;
 }
 .filters {
 	width: 100%;
