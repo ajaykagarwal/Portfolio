@@ -1,10 +1,4 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	font-family: 'Poppins', sans-serif;
-	/*user-select:none;*/
-
-}
+*{margin: 0px;padding: 0px;font-family: 'Poppins', sans-serif;user-select:none;}
 ::selection{
 	background: #20c997;
     color: #fff;
@@ -500,6 +494,7 @@ footer{height:0rem;}
 	.collapse:not(.show){display:none!important;}
 	.flex-column{flex-direction:row!important;transition:all 0.01s ease-in-out;}
 	.flex-column li {padding: 0px 10px;margin-top:-50px;}
+	.icon-social{display:none;}
 }
 
 @media(max-width:768px){
@@ -523,5 +518,54 @@ footer{height:0rem;}
 	.contact-header h3{top:10%;font-size:1.3rem;left:44%;}
 	.form div div {margin-top:2rem;}
 	.process-skills{margin-left:0px !important;}
+	.left-side-nav li a{font-size:9px;}
+	.flex-column li{padding:  0px 7px; }
+	.left-side-nav{margin-top: 3.5rem;margin-bottom: 0rem;}
+	.main-content h3{left:0;}
+	.main-content p{font-size:16px;}
+	.main-content a{font-size:15px;padding:8px;}
+	.img-back{background-attachment:fixed;background-size:160% 100%;overflow:hidden;}
 }
-@media(max-width:320px){}
+@media(max-width:375px){
+	.about-header h1{font-size:3.3rem;}
+	.about-header h3{left: 36%;top:1%;}
+	.btn-cv{padding: 13px;margin: 2rem 2rem;}
+	.skills-header h3{top:9%;left:40%;}
+	.resume-header h1{font-size:3rem;}
+	.resume-header h3{top:3.6%;}
+	.project-header h3{top:5.6%;}
+	.modal-content{width:50%;margin:auto;}
+	.project-header h1{font-size:3rem;}
+	.resume-header h1{font-size:3rem;}
+	.card{margin-bottom:15px;}
+	.contact-header h1{font-size:3rem;}
+	.contact-header h3{top:8.6%;left:40%;}
+	.footer-text{font-size:12px;text-align:center;}
+
+	@keyframes fadeInDown {
+   0% {
+         top:10px;
+    opacity: 0.1;
+   }
+   100% {
+          top:130px;
+    opacity: 1;
+   }
+}
+}
+@media(max-width:320px){
+	.left-side-nav li a{font-size:8px;}
+	.left-side-nav{margin-top: 3rem;margin-bottom:0rem;}
+	.main-content h3{font-size:19px;}
+	.btn-cv{margin: 2rem 2rem;}
+	.list-text a{font-size:12px}
+	.skills-header h1{font-size:3rem;}
+	.skills-header h3{top:7%;}
+	.text p{font-size:13px;}
+	.resume-header h1{font-size:2.5rem;}
+	.resume-header h3{top:3.6%;}
+	.edu-first h4, .edu-first p{font-size:12px;}
+	.contact-header h1{font-size:2.5rem;}
+	.contact-header h3 {top: 8%;left: 41%;font-size: 15px;}
+	.btn{padding:11px;font-size:14px;}
+}
